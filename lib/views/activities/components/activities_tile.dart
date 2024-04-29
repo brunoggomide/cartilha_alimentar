@@ -1,3 +1,4 @@
+import 'package:educacao_alimentar/views/descriptions/activities_description.dart';
 import 'package:flutter/material.dart';
 
 class ActivitiesTile extends StatelessWidget {
@@ -12,23 +13,20 @@ class ActivitiesTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Aqui você pode inserir a navegação para a DescriptionScreen, como comentado anteriormente
-        // Navigator.of(context).push(
-        //   MaterialPageRoute(
-        //     builder: (c) {
-        //       return DescriptionScreen(item: item);
-        //     },
-        //   ),
-        // );
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (c) {
+              return ActivitiesDescription(item: item);
+            },
+          ),
+        );
       },
       child: Container(
         margin: const EdgeInsets.only(bottom: 10),
-        padding: const EdgeInsets.symmetric(
-            vertical:
-                10), // Adiciona padding vertical para aumentar a altura do container
-        alignment: Alignment.center, // Alinha o conteúdo (ListTile) ao centro
+        padding: const EdgeInsets.symmetric(vertical: 10),
+        alignment: Alignment.center,
         decoration: BoxDecoration(
-          color: Colors.cyan, // Cor azul vibrante para o fundo
+          color: Colors.cyan,
           borderRadius: BorderRadius.circular(20),
         ),
         child: ListTile(
