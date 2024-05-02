@@ -1,3 +1,4 @@
+import 'package:educacao_alimentar/views/descriptions/stickers_description.dart';
 import 'package:flutter/material.dart';
 
 class StickersTile extends StatelessWidget {
@@ -12,14 +13,13 @@ class StickersTile extends StatelessWidget {
   Widget build(BuildContext context) {
     return GestureDetector(
       onTap: () {
-        // Aqui você pode inserir a navegação para a DescriptionScreen, como comentado anteriormente
-        // Navigator.of(context).push(
-        //   MaterialPageRoute(
-        //     builder: (c) {
-        //       return DescriptionScreen(item: item);
-        //     },
-        //   ),
-        // );
+        Navigator.of(context).push(
+          MaterialPageRoute(
+            builder: (c) {
+              return StickersDescription(item: item);
+            },
+          ),
+        );
       },
       child: Container(
         margin: const EdgeInsets.only(bottom: 10),

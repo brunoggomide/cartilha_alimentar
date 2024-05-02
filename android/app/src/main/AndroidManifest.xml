@@ -1,6 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
     <application
-        android:label="educacao_alimentar"
+        android:label="Cartilha de Educação Alimentar e Nutricional"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity
