@@ -4,7 +4,7 @@ final List<Map<String, dynamic>> atividades = [
     "subtitulo": "Apresentação do Cardápio da Escola",
     "objetivo": "Apresentação do cardápio escolar. ",
     "material":
-        "• Cartões de figuras de alimentos.\n• Painel de representação do cardápio escolar:feito com 2 cartolinas ou com 2 papéis Paraná com bolsos de plásticos transparentes com a medida de meia folha sulfite que são colados na cartolina ou no papel Paraná onde colocam-se os cartões de figuras de alimentos.",
+        "• Cartões de figuras de alimentos.\n• Painel de representação do cardápio escolar: feito com 2 cartolinas ou com 2 papéis Paraná com bolsos de plásticos transparentes com a medida de meia folha sulfite que são colados na cartolina ou no papel Paraná onde colocam-se os cartões de figuras de alimentos.",
     "painel":
         "• Usar 2 cartolinas ou 2 papéis Paraná: uma cartolina ou papel Paraná para cada refeição. \n• Cada cartolina terá como título uma refeição que será almoço e lanche da tarde. \n• Na cartolina ou no papel Paraná serão colados plásticos transparentes como bolsos para segurar o cartão de figuras de alimentos. \n     - Cartolina ou papel Paraná de almoço: serão cinco bolsos, para arroz e feijão juntos, carne, hortaliças e fruta. \n      - Cartolina ou papel Paraná para o lanche da tarde: deverá ter três bolsos para leite, pão ou biscoito ou bolo e fruta.",
     "cei":
